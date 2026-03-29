@@ -1,6 +1,6 @@
-import dias from "../assets/dias.jpg";
+import rachel from "../assets/rachel.jpg";
 
-export default function Dias() {
+export default function Rachel() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-700 flex items-center justify-center text-white">
 

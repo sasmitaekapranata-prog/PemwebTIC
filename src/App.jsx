@@ -2,9 +2,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home1";
-import Fidho from "./pages/Fidho";
-import Ardan from "./pages/Ardan";
-import Dias from "./pages/Dias";
+import sasmita from "./pages/sasmita";
+import angeliqia from "./pages/angeliqia";
+import rachel from "./pages/rachel";
 
 function App() {
   return (
@@ -13,9 +13,9 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/fidho" element={<Fidho />} />
-        <Route path="/ardan" element={<Ardan />} />
-        <Route path="/dias" element={<Dias />} />
+        <Route path="/sasmita" element={<sasmita />} />
+        <Route path="/angeliqia" element={<angeliqia />} />
+        <Route path="/rachel" element={<rachel />} />
       </Routes>
     </Router>
   );

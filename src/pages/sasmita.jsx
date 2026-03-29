@@ -1,17 +1,17 @@
-import ardan from "../assets/ardangenteng.jpg";
+import sasmita from "../assets/sasmita.jpg";
 
-export default function Ardan() {
+export default function Sasmita() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-700 flex items-center justify-center text-white">
 
       <div className="bg-white/10 backdrop-blur-lg p-8 rounded-2xl text-center max-w-md">
 
-        <img
-          src={ardan}
+        <jpg
+          src={sasmita}
           className="w-40 h-40 rounded-full mx-auto object-cover border-4 border-white"
         />
 
-        <h2 className="text-2xl font-bold mt-4">Ardan</h2>
+        <h2 className="text-2xl font-bold mt-4">sasmita</h2>
 
         <p className="opacity-80">Teknik Informatika</p>
 
